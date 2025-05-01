@@ -1,12 +1,14 @@
 bl_info = {
     "name": "UVUnwrapGridAligner",
-    "author": "ChatGPT",
+    "author": "Vince Horlait",
     "version": (1, 7),
-    "blender": (2, 80, 0),
+    "blender": (3, 0, 0),
     "location": "UV > Count UV Vertices",
     "description": "Counts, sorts, displays and spaces UV vertices (unique) in selected faces",
     "category": "UV",
 }
+
+# SPDX-License-Identifier: MIT
 
 import bpy
 import bmesh
